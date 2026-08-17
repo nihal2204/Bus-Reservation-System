@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bus Reservation System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Bus Reservation System</h1>
+
+        <button onclick="showBuses()">
+            View Buses
+        </button>
+
+        <h2>Book Ticket</h2>
+
+        <input
+            id="passenger"
+            placeholder="Passenger Name"
+        >
+
+        <input
+            id="bus"
+            type="number"
+            placeholder="Bus ID"
+        >
+
+        <input
+            id="seat"
+            type="number"
+            placeholder="Seat Number"
+        >
+
+        <button onclick="bookTicket()">
+            Book Ticket
+        </button>
+
+        <h2>Cancel Ticket</h2>
+
+        <input
+            id="bookingId"
+            type="number"
+            placeholder="Booking ID"
+        >
+
+        <button onclick="cancelTicket()">
+            Cancel Ticket
+        </button>
+
+        <h2>Result</h2>
+
+        <pre id="result"></pre>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
