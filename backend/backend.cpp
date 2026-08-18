@@ -32,7 +32,6 @@ public:
 
         sqlite3_exec(db, sql.c_str(), nullptr, nullptr, nullptr);
 
-        // Add sample buses only if table is empty
         sqlite3_stmt* stmt;
 
         sqlite3_prepare_v2(
@@ -196,9 +195,6 @@ public:
 };
 
 
-// --------------------------------------------------
-// SIMPLE HTTP SERVER
-// --------------------------------------------------
 
 string response(string data) {
 
@@ -290,14 +286,12 @@ int main() {
 
         string result;
 
-        // GET BUSES
         if (request.find("GET /buses") == 0) {
 
             result =
                 system.showBuses();
         }
 
-        // BOOK TICKET
         else if (
             request.find("POST /book") == 0
         ) {
@@ -325,7 +319,6 @@ int main() {
                 );
         }
 
-        // CANCEL TICKET
         else if (
             request.find("POST /cancel") == 0
         ) {
