@@ -30,8 +30,8 @@ INSERT INTO buses VALUES
 (5, 'Ind-Ujjain Express', 'Indore', 'Ujjain', 40),
 (6, 'Ind-Jabalpur', 'Indore', 'Jabalpur', 40),
 (7, 'Capital', 'Jabalpur', 'Bhopal', 40),
-(8, 'Jabalpur-Ind', 'Jabalpur', 'Indore', 40)
-(9, 'Jabalpur-Mahakal', 'Jabalpur', 'Ujjain', 40)
-(10, 'City Express', 'Ujjain', 'Bhopal', 40)
-(11, 'Ujj-Ind', 'Ujjain', 'Indore', 40)
-(12, 'Ujj-Jab', 'Ujjain', 'Jabalpur', 40)
+(8, 'Jabalpur-Ind', 'Jabalpur', 'Indore', 40),
+(9, 'Jabalpur-Mahakal', 'Jabalpur', 'Ujjain', 40),
+(10, 'City Express', 'Ujjain', 'Bhopal', 40),
+(11, 'Ujj-Ind', 'Ujjain', 'Indore', 40),
+(12, 'Ujj-Jab', 'Ujjain', 'Jabalpur', 40);
